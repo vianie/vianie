@@ -24,9 +24,8 @@
 
 I'm a Physicist at the Perimeter Institute. Passionate about astrophysics and driven by curiosity, I fervently study the captivating realm of quantum gravity. Exploring the fascinating interplay between quantum mechanics and gravity, I am intrigued by the fundamental nature of spacetime.
 
-* BS in Astronomy and Astrophysics at the University of Michigan
-* MS in Physics at the Perimeter Institute (in progress) 
-* PhD in Physics at the University of Washington (future)
+* BSc in Astronomy and Astrophysics at the University of Michigan
+* MSc in Physics at the Perimeter Institute (in progress) 
 
 
 <a href="https://www.buymeacoffee.com/0vianie"><img alt="Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png"></a>
