@@ -22,7 +22,7 @@
 
 ### :woman_technologist: About Me :
 
-I'm a physicist at the University of Washington. Passionate about physics and driven by curiosity, I study the quantum gravity. 
+I'm a physicist at the University of Washington. Passionate about physics and driven by curiosity, I study theories of quantum gravity. 
 
 * BSc in Astronomy and Astrophysics from the University of Michigan
 * MSc in Physics from the Perimeter Institute of Theoretical Physics
