@@ -26,7 +26,7 @@ I'm a physicist at the University of Washington. Passionate about physics and dr
 
 * BSc in Astronomy and Astrophysics from the University of Michigan
 * MSc in Physics from the Perimeter Institute of Theoretical Physics
-* PhD in Physis from the University of Washington (in progress)
+* PhD in Physics from the University of Washington (in progress)
 
 
 <a href="https://www.buymeacoffee.com/0vianie"><img alt="Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png"></a>
