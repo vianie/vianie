@@ -9,7 +9,7 @@
 </div> -->
 
 <div id="header" align="center">
- <img src="https://media.giphy.com/media/kPnSyZMn76vJhE2pgg/giphy.gif" alt="computer" style="width:100%" />
+ <img src="[https://media.giphy.com/media/kPnSyZMn76vJhE2pgg/giphy.gif](https://sdmntprwestus3.oaiusercontent.com/files/00000000-1d2c-61fd-8cab-6bc3e4903904/raw?se=2025-07-23T23%3A47%3A56Z&sp=r&sv=2024-08-04&sr=b&scid=a533f29e-f480-5cab-a5d1-75394fdc0a66&skoid=c156db82-7a33-468f-9cdd-06af263ceec8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T20%3A09%3A58Z&ske=2025-07-24T20%3A09%3A58Z&sks=b&skv=2024-08-04&sig=n4CC0GM3eXQXfg9arnFEGRzcqSYGkvUxFoBDb58RcOk%3D)" alt="computer" style="width:100%" />
 </div>
 
 ---------------
