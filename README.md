@@ -12,13 +12,12 @@
   <img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/266cdd79-f87c-476c-bf5f-3e12f5611ecd" />
 </div> -->
 
-<img
-  src="https://apod.nasa.gov/apod/image/2508/DarkVeil_v2p1024.jpeg"
-  alt="Dark Veil nebula – NASA APOD"
-  loading="lazy"
-  decoding="async"
-  style="max-width:50%;height:auto;border-radius:7px"
+<img 
+  src="https://apod.nasa.gov/apod/image/2508/DarkVeil_v2p1024.jpeg" 
+  alt="Dark Veil nebula – NASA APOD" 
+  width="300"
 />
+
 
 
 ---------------
