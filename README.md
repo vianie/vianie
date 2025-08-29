@@ -12,12 +12,18 @@
   <img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/266cdd79-f87c-476c-bf5f-3e12f5611ecd" />
 </div> -->
 
-<img 
-  src="https://apod.nasa.gov/apod/image/2508/DarkVeil_v2p1024.jpeg" 
-  alt="Dark Veil nebula – NASA APOD" 
-  width="300"
-/>
-
+<figure style="text-align:center;">
+  <img 
+    src="https://apod.nasa.gov/apod/image/2508/DarkVeil_v2p1024.jpeg" 
+    alt="Dark Veil nebula – NASA APOD" 
+    width="400"
+    style="border-radius:8px;"
+  />
+  <figcaption style="font: 14px/1.4 system-ui, sans-serif; color:#555; margin-top:6px;">
+    <strong>A Dark Veil in Ophiuchus</strong><br>
+    Image Credit &amp; Copyright: Katelyn Beecroft
+  </figcaption>
+</figure>
 
 
 ---------------
