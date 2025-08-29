@@ -24,18 +24,28 @@
 ---------------
 
 <p align="center">
-    <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/learn-Substack-green?logo=substack&style=for-the-badge"></a>
+    <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/read-Substack-green?logo=substack&style=for-the-badge"></a>
     <a href="https://www.linkedin.com/in/vianie/"><img alt="LinkedIn" src="https://img.shields.io/badge/connect-vianie-green?logo=linkedin&style=for-the-badge"></a>
-  <a href="https://orcid.org/0000-0001-8119-9098"><img alt="ORCID" src="https://img.shields.io/badge/read-ORCID-green?logo=orcid&style=for-the-badge"></a>
+  <a href="https://orcid.org/0000-0001-8119-9098"><img alt="ORCID" src="https://img.shields.io/badge/learn-ORCID-green?logo=orcid&style=for-the-badge"></a>
 </p>
 
-### :woman_technologist: About Me :
+### About Me
 
-I'm a physicist at the University of Washington. Passionate about physics and driven by curiosity, I study theories of quantum gravity. 
+Hi, I’m Via — a PhD student in theoretical physics.  
+My research focuses on **holography**, exploring the connections between quantum field theory and gravity.  
+I’m especially interested in how holography can shed light on strongly coupled systems and the dynamics of spacetime.  
+
+### My Creds, if you will 
 
 * BSc in Astronomy and Astrophysics from the University of Michigan
 * MSc in Physics from the Perimeter Institute of Theoretical Physics
+* MSc in Physics from the University of Washington
 * PhD in Physics from the University of Washington (in progress)
 
 
-<a href="https://www.buymeacoffee.com/0vianie"><img alt="Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png"></a>
+<p align="center">
+  <a href="https://www.buymeacoffee.com/0vianie">
+    <img alt="Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png">
+  </a>
+</p>
+
