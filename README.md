@@ -17,7 +17,7 @@
   alt="Dark Veil nebula – NASA APOD"
   loading="lazy"
   decoding="async"
-  style="max-width:100%;height:auto;border-radius:12px"
+  style="max-width:50%;height:auto;border-radius:12px"
 />
 
 
