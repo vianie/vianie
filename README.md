@@ -32,6 +32,7 @@
 ### About Me
 
 Hi, I’m Via — a PhD student in theoretical physics. Specifically, I do particle theory in Astrophysics, Cosmology & Gravitation.
+
 My research utilizes the **Effective Field Theory of Dark Energy (EFTofDE)** framework to systematically and model-independently explore cosmic acceleration by parameterizing modifications to General Relativity through a finite set of time-dependent functions. By focusing on the symmetries of the cosmological background and the relevant low-energy degrees of freedom, we are able to unify diverse theories into a single mathematical language that can be directly tested against observational data like the CMB and Large Scale Structure.
 
 ### My Creds, if you will 
