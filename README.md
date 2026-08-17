@@ -42,6 +42,23 @@ via = Via()
 ---
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
+  <img src="https://img.shields.io/badge/Mathematica-DD1100?style=for-the-badge&logo=wolframmathematica&logoColor=white">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vianie&show_icons=true&theme=dark&hide_border=true&count_private=true">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vianie&layout=compact&theme=dark&hide_border=true">
+</p>
+
+---
+
+<p align="center">
   <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/read-Substack-green?logo=substack&style=for-the-badge"></a>
   <a href="https://www.linkedin.com/in/vianie/"><img alt="LinkedIn" src="https://img.shields.io/badge/connect-vianie-green?logo=linkedin&style=for-the-badge"></a>
   <a href="https://orcid.org/0000-0001-8119-9098"><img alt="ORCID" src="https://img.shields.io/badge/learn-ORCID-green?logo=orcid&style=for-the-badge"></a>
