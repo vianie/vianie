@@ -14,9 +14,6 @@ Image Credit &amp; Copyright: Katelyn Beecroft</sub>
 
 ---
 
-<table align="left">
-<tr><td>
-
 ```python
 class Via:
     def __init__(self):
@@ -47,10 +44,6 @@ class Via:
 
 via = Via()
 ```
-
-</td></tr>
-</table>
-
 ---
 
 <p align="center">
