@@ -10,9 +10,12 @@ Image Credit &amp; Copyright: Katelyn Beecroft</sub>
 
 </div> -->
 
-<img width="640" height="640" alt="me" src="https://github.com/user-attachments/assets/2150a713-07f8-4bb0-a1ae-a239b0f89144" />
+<img width="440" height="440" alt="me" src="https://github.com/user-attachments/assets/2150a713-07f8-4bb0-a1ae-a239b0f89144" />
 
 ---
+
+<table align="left">
+<tr><td>
 
 ```python
 class Via:
@@ -44,6 +47,9 @@ class Via:
 
 via = Via()
 ```
+
+</td></tr>
+</table>
 
 ---
 
