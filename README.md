@@ -64,10 +64,3 @@ via = Via()
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vianie&show_icons=true&theme=dark&hide_border=true&count_private=true">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vianie&layout=compact&theme=dark&hide_border=true">
-</p>
-
-
