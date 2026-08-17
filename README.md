@@ -8,6 +8,20 @@
 
 ---
 
+<p align="center">
+  <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/read-Substack-green?logo=substack&style=for-the-badge"></a>
+  <a href="https://www.linkedin.com/in/vianie/"><img alt="LinkedIn" src="https://img.shields.io/badge/connect-vianie-green?logo=linkedin&style=for-the-badge"></a>
+  <a href="https://orcid.org/0000-0001-8119-9098"><img alt="ORCID" src="https://img.shields.io/badge/learn-ORCID-green?logo=orcid&style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/0vianie">
+    <img alt="Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png">
+  </a>
+</p>
+
+---
+
 ```python
 class Via:
     def __init__(self):
@@ -56,16 +70,4 @@ via = Via()
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vianie&layout=compact&theme=dark&hide_border=true">
 </p>
 
----
 
-<p align="center">
-  <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/read-Substack-green?logo=substack&style=for-the-badge"></a>
-  <a href="https://www.linkedin.com/in/vianie/"><img alt="LinkedIn" src="https://img.shields.io/badge/connect-vianie-green?logo=linkedin&style=for-the-badge"></a>
-  <a href="https://orcid.org/0000-0001-8119-9098"><img alt="ORCID" src="https://img.shields.io/badge/learn-ORCID-green?logo=orcid&style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.buymeacoffee.com/0vianie">
-    <img alt="Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png">
-  </a>
-</p>
