@@ -95,6 +95,11 @@ via = Via()
 ```
 
 <!-- BLOG-POST-LIST:START -->
+- [All Them Infinities](https://vianielson.substack.com/p/all-them-infinities) — 2026-08-12 23:10:19
+- [Group Theory Crash Course](https://vianielson.substack.com/p/group-theory-crash-course) — 2026-08-12 17:46:12
+- [How to Accidentally Invent the Photon](https://vianielson.substack.com/p/how-to-accidentally-invent-the-photon) — 2026-08-12 00:12:48
+- [The Story of QFT](https://vianielson.substack.com/p/the-story-of-qft) — 2025-11-25 05:11:25
+- [Black Holes Can Superconduct](https://vianielson.substack.com/p/black-holes-can-superconduct) — 2025-10-19 21:21:28
 <!-- BLOG-POST-LIST:END -->
 
 <p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
