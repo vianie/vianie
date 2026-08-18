@@ -2,27 +2,52 @@
 
 # Hi, I'm 
 <img width="800" height="90" alt="via-nielson" src="https://github.com/user-attachments/assets/6fd89706-6096-4f0e-9a2b-5273e9a87be5" />
-
-
 <img width="440" height="440" alt="me" src="https://github.com/user-attachments/assets/2150a713-07f8-4bb0-a1ae-a239b0f89144" />
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1200&color=39FF14&background=00000000&center=true&vCenter=true&width=650&lines=Theoretical+Physicist;Particle+Theorist+%E2%80%94+Astrophysics+%26+Cosmology;Dark+Energy+%26+Modified+Gravity;Currently%3A+EFT+of+Dark+Energy" alt="Typing SVG" />
 
 </div>
 
----
+<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
 
 <p align="center">
-  <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/read-Substack-green?logo=substack&style=for-the-badge"></a>
-  <a href="https://www.linkedin.com/in/vianie/"><img alt="LinkedIn" src="https://img.shields.io/badge/connect-vianie-green?logo=linkedin&style=for-the-badge"></a>
-  <a href="https://orcid.org/0000-0001-8119-9098"><img alt="ORCID" src="https://img.shields.io/badge/learn-ORCID-green?logo=orcid&style=for-the-badge"></a>
+  <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/read-Substack-000000?logo=substack&logoColor=39FF14&labelColor=000000&style=for-the-badge"></a>
+  <a href="https://www.linkedin.com/in/vianie/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14"></a>
+  <a href="https://orcid.org/0000-0001-8119-9098"><img alt="ORCID" src="https://img.shields.io/badge/learn-ORCID-000000?logo=orcid&logoColor=39FF14&labelColor=000000&style=for-the-badge"></a>
 </p>
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/0vianie">
-    <img alt="Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png">
+    <img alt="Coffee" src="https://img.shields.io/badge/buy%20me%20a-coffee-000000?logo=buymeacoffee&logoColor=39FF14&labelColor=000000&style=for-the-badge">
   </a>
 </p>
 
----
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=vianie&label=Visitors&color=39FF14&style=for-the-badge" alt="Visitor Count" />
+</p>
+
+<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+
+```text
+                                    via@physics
+                                    ─────────────────────────────
+          -----                    OS: Spacetime (3+1D, mostly flat)
+         /     \                   Host: University of Washington
+    ----(   *   )----              Kernel: General Relativity 4.0
+         \     /                   Uptime: PhD Year 3
+          -----                    Shell: python3 / bash / latex
+                                    Field: Theoretical Physics
+                                    Focus: Particle Theory — Astro,
+                                           Cosmology & Gravitation
+                                    Framework: EFT of Dark Energy
+                                    Tested against: CMB, LSS
+```
+
+<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+
+```diff
++ $ cat about.py
+```
 
 ```python
 class Via:
@@ -51,18 +76,63 @@ class Via:
             "BSc, Astronomy & Astrophysics — University of Michigan",
         ]
 
-
 via = Via()
 ```
 
----
+<p align="center">
+  <img src="assets/eft-action.png" width="720" alt="EFT of Dark Energy action">
+</p>
+
+<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+
+<details>
+<summary><b>📄 Publications</b></summary>
+<br>
+
+- **Optical and X-ray GRB Fundamental Planes as cosmological distance indicators** — *Monthly Notices of the Royal Astronomical Society*, 2022. [[arXiv:2203.15538]](https://arxiv.org/abs/2203.15538) [[DOI]](https://doi.org/10.1093/mnras/stac1141)
+- **A new perspective on cosmology through Supernovae Ia and Gamma Ray Bursts** — *The Sixteenth Marcel Grossmann Meeting*, 2021. [[arXiv:2110.11930]](https://arxiv.org/abs/2110.11930) [[DOI]](https://doi.org/10.1142/9789811269776_0256)
+- **An Experimental Study: Assessing the Combined Framework of WavLM and BEST-RQ for Text-to-Speech Synthesis** — *arXiv*, 2023. [[arXiv:2312.05415]](https://arxiv.org/abs/2312.05415) [[DOI]](https://doi.org/10.48550/arXiv.2312.05415)
+
+</details>
+
+<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+
+```diff
++ $ tail -f substack.log
+```
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+
+```diff
++ $ ls stack/
+```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
-  <img src="https://img.shields.io/badge/Mathematica-DD1100?style=for-the-badge&logo=wolframmathematica&logoColor=white">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=39FF14">
+  <img src="https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus&logoColor=39FF14">
+  <img src="https://img.shields.io/badge/LaTeX-000000?style=for-the-badge&logo=latex&logoColor=39FF14">
+  <img src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge&logo=jupyter&logoColor=39FF14">
+  <img src="https://img.shields.io/badge/Mathematica-000000?style=for-the-badge&logo=wolframmathematica&logoColor=39FF14">
+  <img src="https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnubash&logoColor=39FF14">
+  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=39FF14">
 </p>
+
+<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vianie&show_icons=true&bg_color=00000000&title_color=39FF14&text_color=39FF14&icon_color=39FF14&border_color=39FF14&hide_border=true" alt="Via's GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vianie&layout=compact&bg_color=00000000&title_color=39FF14&text_color=39FF14&border_color=39FF14&hide_border=true" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=vianie&background=00000000&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=39FF14&currStreakNum=39FF14&sideNums=39FF14&dates=39FF14&border=39FF14&hide_border=true" alt="GitHub streak">
+</p>
+
+<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+
+```diff
++ $ echo "thanks for stopping by — via"
+```
