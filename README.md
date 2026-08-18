@@ -111,7 +111,7 @@ via = Via()
 </p>
 
 <p align="center"> 
-  <img height="165" src="https://github-readme-stats2-eta.vercel.app/api?username=vianie&show_icons=true&bg_color=00000000&title_color=39FF14&text_color=39FF14&icon_color=39FF14&border_color=39FF14&hide_border=true" alt="Via's GitHub stats"> 
+  <!-- <img height="165" src="https://github-readme-stats2-eta.vercel.app/api?username=vianie&show_icons=true&bg_color=00000000&title_color=39FF14&text_color=39FF14&icon_color=39FF14&border_color=39FF14&hide_border=true" alt="Via's GitHub stats">  -->
   <img height="165" src="https://github-readme-stats2-eta.vercel.app/api/top-langs/?username=vianie&layout=compact&bg_color=00000000&title_color=39FF14&text_color=39FF14&border_color=39FF14&hide_border=true&count_private=true" alt="Top languages"> </p> <p align="center"> 
     <img src="https://streak-stats.demolab.com/?user=vianie&background=00000000&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=39FF14&currStreakNum=39FF14&sideNums=39FF14&dates=39FF14&border=39FF14&hide_border=true" alt="GitHub streak"> </p> 
 
