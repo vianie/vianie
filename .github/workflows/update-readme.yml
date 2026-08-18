@@ -20,36 +20,102 @@ jobs:
           import json
           import re
           import sys
+          import time
           import urllib.parse
           import urllib.request
           import urllib.error
+          import xml.etree.ElementTree as ET
 
-          feed_url = "https://vianielson.substack.com/feed"
-          api_url = (
-              "https://api.rss2json.com/v1/api.json?"
-              + urllib.parse.urlencode({"rss_url": feed_url})
+          FEED_URL = "https://vianielson.substack.com/feed"
+          BROWSER_UA = (
+              "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/124.0.0.0 Safari/537.36"
           )
 
-          try:
-              with urllib.request.urlopen(api_url, timeout=30) as resp:
+
+          def via_rss2json():
+              api_url = (
+                  "https://api.rss2json.com/v1/api.json?"
+                  + urllib.parse.urlencode({"rss_url": FEED_URL})
+              )
+              with urllib.request.urlopen(api_url, timeout=20) as resp:
                   payload = json.load(resp)
               if payload.get("status") != "ok":
-                  raise RuntimeError(f"rss2json returned status={payload.get('status')}")
-              items = payload.get("items", [])[:5]
+                  raise RuntimeError(f"status={payload.get('status')}")
+              items = []
+              for item in payload.get("items", [])[:5]:
+                  items.append(
+                      (
+                          (item.get("title") or "").strip(),
+                          (item.get("link") or "").strip(),
+                          (item.get("pubDate") or "").strip(),
+                      )
+                  )
               if not items:
-                  raise RuntimeError("no items returned")
-          except (urllib.error.URLError, urllib.error.HTTPError, RuntimeError, TimeoutError) as e:
-              print(f"::warning::Skipping README update, feed service unavailable: {e}")
+                  raise RuntimeError("no items")
+              return items
+
+
+          def via_direct():
+              req = urllib.request.Request(FEED_URL, headers={"User-Agent": BROWSER_UA})
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  data = resp.read()
+              root = ET.fromstring(data)
+              items = []
+              for entry in root.findall("./channel/item")[:5]:
+                  items.append(
+                      (
+                          (entry.findtext("title") or "").strip(),
+                          (entry.findtext("link") or "").strip(),
+                          (entry.findtext("pubDate") or "").strip(),
+                      )
+                  )
+              if not items:
+                  raise RuntimeError("no items")
+              return items
+
+
+          def via_allorigins():
+              proxied = "https://api.allorigins.win/raw?url=" + urllib.parse.quote(FEED_URL, safe="")
+              req = urllib.request.Request(proxied, headers={"User-Agent": BROWSER_UA})
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  data = resp.read()
+              root = ET.fromstring(data)
+              items = []
+              for entry in root.findall("./channel/item")[:5]:
+                  items.append(
+                      (
+                          (entry.findtext("title") or "").strip(),
+                          (entry.findtext("link") or "").strip(),
+                          (entry.findtext("pubDate") or "").strip(),
+                      )
+                  )
+              if not items:
+                  raise RuntimeError("no items")
+              return items
+
+
+          STRATEGIES = [via_rss2json, via_direct, via_allorigins]
+
+          items = None
+          errors = []
+          for strategy in STRATEGIES:
+              for attempt in range(2):
+                  try:
+                      items = strategy()
+                      break
+                  except Exception as e:
+                      errors.append(f"{strategy.__name__} attempt {attempt + 1}: {e}")
+                      time.sleep(3)
+              if items:
+                  break
+
+          if not items:
+              print("::warning::Skipping README update, all feed sources failed: " + " | ".join(errors))
               sys.exit(0)
 
-          lines = []
-          for item in items:
-              title = (item.get("title") or "").strip()
-              link = (item.get("link") or "").strip()
-              pubdate = (item.get("pubDate") or "").strip()
-              lines.append(f"- [{title}]({link}) — {pubdate}")
-
-          block = "\n".join(lines)
+          block = "\n".join(f"- [{title}]({link}) — {pubdate}" for title, link, pubdate in items)
 
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
