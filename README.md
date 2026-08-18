@@ -9,7 +9,7 @@
 
 </div>
 
-<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+<!-- <p align="center"><img src="matrix-divider.gif" width="100%" height="34" alt=""></p> -->
 
 <p align="center">
   <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/read-Substack-000000?logo=substack&logoColor=39FF14&labelColor=000000&style=for-the-badge"></a>
@@ -18,8 +18,6 @@
   <a href="https://www.buymeacoffee.com/0vianie"><img alt="Coffee" src="https://img.shields.io/badge/buy%20me%20a-coffee-000000?logo=buymeacoffee&logoColor=39FF14&labelColor=000000&style=for-the-badge"></a>
   <img src="https://komarev.com/ghpvc/?username=vianie&label=Visitors&color=39FF14&style=for-the-badge" alt="Visitor Count" />
 </p>
-
-<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
 
 ```text
                                     via@physics
@@ -36,7 +34,7 @@
                                     Tested against: CMB, LSS
 ```
 
-<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+<p align="center"><img src="matrix-divider.gif" width="100%" height="34" alt=""></p>
 
 ```diff
 + $ cat about.py
@@ -72,11 +70,13 @@ class Via:
 via = Via()
 ```
 
+<p align="center"><img src="matrix-divider.gif" width="100%" height="34" alt=""></p>
+
 <p align="center">
-  <img src="assets/eft-action.png" width="720" alt="EFT of Dark Energy action">
+  <img src="eft-action.png" width="720" alt="EFT of Dark Energy action">
 </p>
 
-<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+<p align="center"><img src="matrix-divider.gif" width="100%" height="34" alt=""></p>
 
 <details>
 <summary><b>Publications</b></summary>
