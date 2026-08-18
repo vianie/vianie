@@ -1,6 +1,8 @@
 <div align="center">
 
-# Hi, I'm Via 👋
+# Hi, I'm 
+<img width="800" height="90" alt="via-nielson" src="https://github.com/user-attachments/assets/6fd89706-6096-4f0e-9a2b-5273e9a87be5" />
+
 
 <img width="440" height="440" alt="me" src="https://github.com/user-attachments/assets/2150a713-07f8-4bb0-a1ae-a239b0f89144" />
 
