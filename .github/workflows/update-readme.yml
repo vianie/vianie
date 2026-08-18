@@ -1,0 +1,20 @@
+name: Update README with latest Substack posts
+
+on:
+  schedule:
+    # Runs once a day at 09:00 UTC
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://vianielson.substack.com/feed"
+          max_post_count: 5
+          comment_tag_name: "BLOG-POST-LIST"
