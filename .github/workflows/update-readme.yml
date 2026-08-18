@@ -17,32 +17,36 @@ jobs:
       - name: Fetch latest Substack posts and update README
         run: |
           python3 - <<'PYEOF'
+          import json
           import re
+          import sys
+          import urllib.parse
           import urllib.request
-          import xml.etree.ElementTree as ET
+          import urllib.error
 
-          url = "https://vianielson.substack.com/feed"
-          req = urllib.request.Request(
-              url,
-              headers={
-                  "User-Agent": (
-                      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/124.0.0.0 Safari/537.36"
-                  )
-              },
+          feed_url = "https://vianielson.substack.com/feed"
+          api_url = (
+              "https://api.rss2json.com/v1/api.json?"
+              + urllib.parse.urlencode({"rss_url": feed_url})
           )
-          with urllib.request.urlopen(req, timeout=30) as resp:
-              data = resp.read()
 
-          root = ET.fromstring(data)
-          items = root.findall("./channel/item")[:5]
+          try:
+              with urllib.request.urlopen(api_url, timeout=30) as resp:
+                  payload = json.load(resp)
+              if payload.get("status") != "ok":
+                  raise RuntimeError(f"rss2json returned status={payload.get('status')}")
+              items = payload.get("items", [])[:5]
+              if not items:
+                  raise RuntimeError("no items returned")
+          except (urllib.error.URLError, urllib.error.HTTPError, RuntimeError, TimeoutError) as e:
+              print(f"::warning::Skipping README update, feed service unavailable: {e}")
+              sys.exit(0)
 
           lines = []
           for item in items:
-              title = (item.findtext("title") or "").strip()
-              link = (item.findtext("link") or "").strip()
-              pubdate = (item.findtext("pubDate") or "").strip()
+              title = (item.get("title") or "").strip()
+              link = (item.get("link") or "").strip()
+              pubdate = (item.get("pubDate") or "").strip()
               lines.append(f"- [{title}]({link}) — {pubdate}")
 
           block = "\n".join(lines)
