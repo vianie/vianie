@@ -2,9 +2,10 @@
 
 # Hi, I'm 
 <img width="800" height="90" alt="via-nielson" src="https://github.com/user-attachments/assets/6fd89706-6096-4f0e-9a2b-5273e9a87be5" />
-<img width="440" height="440" alt="me" src="https://github.com/user-attachments/assets/2150a713-07f8-4bb0-a1ae-a239b0f89144" />
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1200&color=39FF14&background=00000000&center=true&vCenter=true&width=650&lines=Theoretical+Physicist;Particle+Theorist+%E2%80%94+Astrophysics+%26+Cosmology;Dark+Energy+%26+Modified+Gravity;Currently%3A+EFT+of+Dark+Energy" alt="Typing SVG" />
+
+<img width="440" height="440" alt="me" src="https://github.com/user-attachments/assets/2150a713-07f8-4bb0-a1ae-a239b0f89144" />
 
 </div>
 
@@ -14,15 +15,7 @@
   <a href="https://vianielson.substack.com"><img alt="Blog" src="https://img.shields.io/badge/read-Substack-000000?logo=substack&logoColor=39FF14&labelColor=000000&style=for-the-badge"></a>
   <a href="https://www.linkedin.com/in/vianie/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14"></a>
   <a href="https://orcid.org/0000-0001-8119-9098"><img alt="ORCID" src="https://img.shields.io/badge/learn-ORCID-000000?logo=orcid&logoColor=39FF14&labelColor=000000&style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.buymeacoffee.com/0vianie">
-    <img alt="Coffee" src="https://img.shields.io/badge/buy%20me%20a-coffee-000000?logo=buymeacoffee&logoColor=39FF14&labelColor=000000&style=for-the-badge">
-  </a>
-</p>
-
-<p align="center">
+  <a href="https://www.buymeacoffee.com/0vianie"><img alt="Coffee" src="https://img.shields.io/badge/buy%20me%20a-coffee-000000?logo=buymeacoffee&logoColor=39FF14&labelColor=000000&style=for-the-badge"></a>
   <img src="https://komarev.com/ghpvc/?username=vianie&label=Visitors&color=39FF14&style=for-the-badge" alt="Visitor Count" />
 </p>
 
@@ -86,7 +79,7 @@ via = Via()
 <p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
 
 <details>
-<summary><b>📄 Publications</b></summary>
+<summary><b>Publications</b></summary>
 <br>
 
 - **Optical and X-ray GRB Fundamental Planes as cosmological distance indicators** — *Monthly Notices of the Royal Astronomical Society*, 2022. [[arXiv:2203.15538]](https://arxiv.org/abs/2203.15538) [[DOI]](https://doi.org/10.1093/mnras/stac1141)
@@ -120,18 +113,18 @@ via = Via()
   <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=39FF14">
 </p>
 
-<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+<p align="center"><img src="matrix-divider.gif" width="100%" height="34" alt=""></p>
 
-<p align="center">
+<!-- <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=vianie&show_icons=true&bg_color=00000000&title_color=39FF14&text_color=39FF14&icon_color=39FF14&border_color=39FF14&hide_border=true" alt="Via's GitHub stats">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vianie&layout=compact&bg_color=00000000&title_color=39FF14&text_color=39FF14&border_color=39FF14&hide_border=true" alt="Top languages">
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=vianie&background=00000000&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=39FF14&currStreakNum=39FF14&sideNums=39FF14&dates=39FF14&border=39FF14&hide_border=true" alt="GitHub streak">
 </p>
 
-<p align="center"><img src="assets/matrix-divider.gif" width="100%" height="34" alt=""></p>
+<p align="center"><img src="matrix-divider.gif" width="100%" height="34" alt=""></p>
 
 ```diff
 + $ echo "thanks for stopping by — via"
